@@ -1,12 +1,27 @@
-# React + Vite
+# ⚛️ Proyecto React con Context API + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web creada con **React** que demuestra el uso de **Context API** para manejo global del estado y **Tailwind CSS** para estilizar componentes de forma rápida y eficiente.
 
-Currently, two official plugins are available:
+> 📦 Ideal como base para proyectos escalables, ligeros y bien organizados.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧠 Funcionalidades destacadas
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🧩 Uso de `Context API` para compartir datos globales entre componentes.
+- ⚙️ Custom Provider y `useContext` para consumir el estado.
+- 🎨 Estilizado con **Tailwind CSS**, totalmente responsive.
+- 🧼 Estructura limpia y reutilizable de componentes.
+- 🚀 Ideal para CRUDs, dashboards, tiendas o apps informativas.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- ⚛️ React (Vite o Create React App)
+- 🧠 Context API (`createContext`, `useContext`, `useReducer`)
+- 💅 Tailwind CSS
+- 📦 `useState`, `useEffect`, `useContext`, `createContext`
+- 🧪 Posiblemente `PropTypes` o `React Router` (si lo agregaste)
+
+---
